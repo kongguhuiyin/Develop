@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="507dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.6"
+        android:background="#e0ffff" />
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="138dp"
+        android:text="设置"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/GeneralSetting"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.4"
+        android:background="#F0FFFF"
+        android:textSize="16sp"
+        android:text="通用设置                                              >" />
+
+    <Button
+        android:id="@+id/ChangePassword"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:alpha="0.4"
+        android:background="#F0FFFF"
+        android:text="修改密码                                              >" />
+
+    <Button
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:alpha="0.4"
+        android:background="#F0FFFF"
+        android:text="余额礼券                                              >" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.4"
+        android:background="#F0FFFF"
+        android:text="活动中心                                              >"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.4"
+        android:background="#F0FFFF"
+        android:text="反馈与帮助                                          >"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="337dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:alpha="0.4"
+        android:background="#F0FFFF"
+        android:textColor="#ff0000"
+        android:text="退出登录" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.4"
+        android:background="#F0FFFF"
+        android:textSize="16sp"
+        android:textColor="#ff0000"
+        android:text="删除账户" />
+
+    <TextView
+        android:id="@+id/Version"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginEnd="112dp"
+        android:text="当前版本：2.0.10"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/Owner"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="477dp"
+        android:layout_marginEnd="88dp"
+        android:text="＠ 2018-2019 QQ.com"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/AllRightReserved"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="101dp"
+        android:text="All right reserved."
+        android:textSize="12dp" />
+
+</RelativeLayout>
